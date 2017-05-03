@@ -7,7 +7,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 @Configuration
 @EnableWebMvc
-@ComponentScan({"com.qoobico"})
+@ComponentScan({"com.firstpackage"})
 public class WebConfig extends WebMvcConfigurerAdapter {
     public WebConfig() {
     }
