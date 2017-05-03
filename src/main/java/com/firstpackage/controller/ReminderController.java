@@ -18,6 +18,6 @@ public class ReminderController {
     @RequestMapping(value = "/get", method = RequestMethod.GET)
     @ResponseBody
     public String getReminder(ModelMap model) {
-        return "MyReminder good deployment 03.04.2017";
+        return "MyReminder good deployment 03.04.2017 ";
     }
 }
