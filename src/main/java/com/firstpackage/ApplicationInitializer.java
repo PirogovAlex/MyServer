@@ -9,7 +9,7 @@ import org.springframework.web.context.support.AnnotationConfigWebApplicationCon
 import org.springframework.web.servlet.DispatcherServlet;
 
 public class ApplicationInitializer implements WebApplicationInitializer {
-    private static final String DISPATCHER = "dispatcher1";
+    private static final String DISPATCHER = "dispatcher";
 
     public ApplicationInitializer() {
     }
