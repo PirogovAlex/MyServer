@@ -12,16 +12,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping({"/reminder"})
-@ResponseBody
-public class ReminderController {
-    public ReminderController() {
-    }
+@RequestMapping("/remind")
 
-    @RequestMapping(
-            value = {"/get"},
-            method = {RequestMethod.GET}
-    )
+public class ReminderController {
+    @RequestMapping(value = "/get", method = RequestMethod.GET)
+    @ResponseBody
     public String getReminder(ModelMap model) {
         return "MyReminder first good deployment  ";
     }
