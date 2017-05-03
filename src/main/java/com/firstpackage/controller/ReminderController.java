@@ -23,6 +23,6 @@ public class ReminderController {
             method = {RequestMethod.GET}
     )
     public String getReminder(ModelMap model) {
-        return "MyReminder first good deployment";
+        return "MyReminder first good deployment ";
     }
 }
