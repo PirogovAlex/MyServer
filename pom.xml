@@ -15,6 +15,7 @@
         <mysql.version>6.0.6</mysql.version>
         <dbcp2.version>2.1.1</dbcp2.version>
         <jta.varsion>1.1</jta.varsion>
+        <slf4jlog.version>1.8.0-alpha0</slf4jlog.version>
     </properties>
 
     <packaging>war</packaging>
@@ -65,6 +66,12 @@
             <groupId>javax.transaction</groupId>
             <artifactId>jta</artifactId>
             <version>${jta.varsion}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4jlog.version}</version>
         </dependency>
 
 
