@@ -15,7 +15,7 @@ public class Remind {
     @Id
     @GeneratedValue(generator = "increment")
     @GenericGenerator(name = "increment", strategy = "increment")
-    private long id;
+    private int id;
     @Column(name = "title", nullable = false, length = 50)
     private String title;
     @Column(name = "remind_date", nullable = false)
@@ -25,7 +25,7 @@ public class Remind {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
